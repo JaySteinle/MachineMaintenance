@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+<!--    <link th:href="@{/css/bootstrap.css}" rel="stylesheet"/>-->
+<!--    <script type="text/javascript" th:src="@{/js/bootstrap.js}"></script>-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    <title></title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul class="nav flex-column">
+            <div class="navbar-brand">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index">St Louis Print  Group</a>
+                </li>
+            </div>
+            <li class="nav-item">
+                <a class="nav-link" href="/login">Log In</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/user">Users</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/machine">Machines</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Disabled</a>
+            </li>
+        </ul>
+    </nav>
+
+    <label for="userFirstName">First name:</label><br>
+        <input type="text" id="userFirstName" name="userFirstName" placeholder="Enter First Name"><br>
+    <label for="userLastName">Last name:</label><br>
+        <input type="text" id="userLastName" name="userLastName" placeholder="Enter Last Name"><br><br>
+    <label for="userPassword">Last name:</label><br>
+        <input type="password" id="userPassword" name="userPassword" placeholder="Enter Password"><br><br>
+    <label for="userVerifyPassword">Last name:</label><br>
+        <input type="password" id="userVerifyPassword" name="userVerifyPassword" placeholder="Verify Password"><br><br>
+    <input class="btn btn-danger" type="reset" value="Cancel">
+    <input class="btn btn-success" type="submit" value="Submit">
+
+
+
+</body>
+</html>
